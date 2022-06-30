@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #172c66;    
+}
+
+.contenedor{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 1px;
+    
+}
+
+.logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(img/logo-color.png) no-repeat 0 0 scroll;
+    font-size: 0;
+    background-size: 80%;
+    margin-top: 15px;
+ 
+}
+
+.d-flex{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 95px;    
+    align-items: center;
+    background-color:#510c5a69;
+    position: fixed;
+    z-index: 1000000;
+    width: 100%;
+    padding: 0 200px;
+
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    margin-right: 20px;
+
+}
+
+.menu li a:hover{
+    color: #510c5a;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+
+}
+
+ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.in{
+    background-image: url(img/foto-inicio.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+
+.filete{
+    border:solid 5px #510c5a;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 600px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.nom{
+    font-size: 50px;
+    margin: 0 auto;
+    color: white;
+}
+
+.cuadrado{
+    font-size: 30px;
+    color: white;
+}
+
+.mifoto{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 40px;
+    padding-left: 200px;
+    
+}
+
+#quien-soy{
+padding-top: 70px;
+padding-bottom: 70px;
+background-color: #cdc5d2;
+}
+
+
+.presentacio .pre{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 90px;
+    margin-left: 250px;
+
+}
+
+.mi-foto{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: px;
+    
+}
+
+.pres{
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    text-align: right;
+}
+
+.minom{
+    text-align: right;
+    padding-top: 0px;
+}
+
+.boton{
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #510c5a;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-right: 35px;
+    margin-left: 550px;
+}
+
+.cta a:hover{
+    color: aquamarine;
+}
+
+
+p{
+    font-size: 18px;
+}
+
+#mis-conocimientos{
+    background-color: #cfadbb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.conoc{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.iconos{
+    margin-top: 80px;
+}
+
+.programa{   
+    display: inline-block;
+    margin-left: 110px;
+    text-align: center;
+    width: 300px;
+}
+
+#mis-mejores-trabajos{
+    background-color: #ebd0bb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.flexbox1, .flexbox2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox2 {
+    flex-direction: row-reverse;
+}
+
+.desc-trabajos{
+    width: 500px;
+
+}
+.fondo{
+    background-color:#6766a23a;
+    padding: 7px;
+
+}
+
+.derecha{
+    text-align: right;
+}
+
+.izquierda{
+    text-align: left;
+
+}
+
+#mi-inspiracion{
+    background-color: #fdf6e4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.ins{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.inspo{
+    width: 400px;
+    text-align: right;
+    padding-top: 55px;
+}
+
+#contactame{
+    background-color: #9c7496;
+    padding-top: 30PX;
+}
+.redes{
+    list-style: none;
+    text-align: center;
+     
+}
+
+.redes li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.copy{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #5c5b9e;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+h3{
+    color: #510c5a;
+    font-size: 20px;
+}
